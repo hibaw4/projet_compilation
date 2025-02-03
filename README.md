@@ -96,7 +96,7 @@ Pour utiliser ce compilateur, exécutez le fichier compilateur.exe avec un fichi
 2. Assurez-vous d'avoir un compilateur C installé (comme GCC ou Clang).
 3. Compilez le projet :
 ```
-gcc -o compilateur Compilateur/main.c Compilateur/lexer.c Compilateur/parser.c -lm
+gcc -o <nom du compilateur: compilateur.exe> lexer.c parser.c main.c
 ```
 
 ###  :package: Commands
